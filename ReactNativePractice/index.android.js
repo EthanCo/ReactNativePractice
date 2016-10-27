@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-class ReactNativePractice extends Component {
+export default class ReactNativePractice extends Component {
   render() {
     return (
       <View style={styles.container}>
