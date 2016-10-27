@@ -26,7 +26,7 @@ import {
 class Greeting extends Component {
     render() {
         return (
-            <Text>wo~{this.props.name}!</Text>
+            <Text>Hello {this.props.name}!</Text>
         )
     }
 }
@@ -34,10 +34,10 @@ class Greeting extends Component {
 export default class ReactNativePractice extends Component {
     render() {
         return (
-            <View style={{flex: 1,justifyContent: "center",alignItems:"center"}}>
-                <Greeting name="EthanCo"></Greeting>
-                <Greeting name="EthanCo"></Greeting>
-                <Greeting name="EthanCo"></Greeting>
+            <View style={{alignItems:"center"}}>
+                <Greeting name="EthanCo"/>
+                <Greeting name="Zhk"/>
+                <Greeting name="MYY"/>
             </View>
         )
     }
