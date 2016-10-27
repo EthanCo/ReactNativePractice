@@ -17,13 +17,13 @@ export default class ReactNativePractice extends Component {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>
-                    Hello world !
+                    Hello world!
                 </Text>
                 <Text style={styles.instructions}>
-                    2016.10.27 20:23
+                    2016.10.27 21:28
                 </Text>
                 <Text style={styles.instructions}>
-                    - EthanCo -
+                    EthanCo
                 </Text>
             </View>
         );
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#F5FCFF',
+        backgroundColor: "#F5FCFF",
     },
     welcome: {
         fontSize: 20,
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     },
     instructions: {
         textAlign: 'center',
-        color: '#333333',
+        color: "#333333",
         marginBottom: 5
     }
 });
