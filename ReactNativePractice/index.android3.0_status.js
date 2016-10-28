@@ -6,7 +6,7 @@
 
 /*
  * Status (状态)
- *
+ * 每隔一秒Text消失、显示
  *
  * */
 
@@ -20,10 +20,8 @@ import {
 } from 'react-native';
 
 class Blink extends Component {
-    // 构造
     constructor(props) {
         super(props);
-        // 初始状态
         this.state = {showText: true};
 
         setInterval(()=> {
@@ -35,16 +33,16 @@ class Blink extends Component {
         let display = this.state.showText ? this.props.text : '';
         return (
             <Text>{display}</Text>
-        )
+        );
     }
 }
 
 export default class ReactNativePractice extends Component {
     render() {
         return (
-            <View style={{flex:1,justifyContent:"center",alignItems:"center"}}>
-                <Blink text="i dfdfd"/>
-                <Blink text="boldlfldfld"/>
+            <View style={{flex: 1,justifyContent: "center",alignItems:"center"}}>
+                <Blink text="i love to blink"/>
+                <Blink text="Yes blinking is so great"/>
             </View>
         )
     }
