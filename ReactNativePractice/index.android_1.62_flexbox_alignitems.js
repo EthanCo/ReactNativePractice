@@ -5,7 +5,7 @@
  */
 
 /*
- * Flexbox布局2
+ * Flexbox布局3
  * alignItems 表示元素在副轴上的对齐方向（针对单行）
 
  stretch (default) 默认，如果项目未设置高度或设为auto，将占满整个容器的高度。
